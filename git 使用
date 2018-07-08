@@ -1,0 +1,38 @@
+git config --global user.name ""
+git config --global user.email ""
+
+git clone http://106.15.197.161:20000/huruda/cocos-parkour.git
+
+//切换分支
+git checkout master
+git checkout dev
+git checkout game
+git checkout wechat
+
+提交到本地仓库
+git add .
+git commit -m "填写备注"
+
+推送到远程仓库
+git push
+
+更新代码到本地
+git pull
+
+//查看提交记录
+git branch -vv
+
+守则
+配置好 .gitignore
+每天下班前推送代码到远程仓库
+每天早上打代码前从远程仓库获取代码
+
+
+慎用
+提交本地分支到线上
+git push --set-upstream origin dev
+
+
+
+git clone http://106.15.197.161:20000/huruda/vue-my-bill.git
+git checkout dev
